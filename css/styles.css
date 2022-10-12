@@ -7,6 +7,12 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -22,14 +28,10 @@ main {
 
 footer {
     
-    /* position: fixed; */
-    bottom: 0;
-    width: 100vw;
-    height: 10vh;
-    padding: 20px;
-    margin: 0 auto;
     background-color: black;
     color: white;
+    padding: 3em;
+    margin-top: auto;
     text-align: center;
     
 }
@@ -90,7 +92,7 @@ footer {
 /*Qui suis-je ?*/
 #whoAmI {
     background-color: #00A8E8;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 20px;
     color: white;
 }
@@ -107,6 +109,26 @@ footer {
 
 
 /*Projets*/
+#projects {
+    background-color: #C4F1BE;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+#projects h1 {
+    background-color: #C8553D;
+    border-radius: 2rem;
+    padding: 10px;
+    color: #fff;
+}
+
+
+
+#projects a {
+    color: #F28F3B;
+}
+
+
 .boxProjects{
     background-color: #007EA7;
     border-radius: 1rem;
@@ -143,6 +165,8 @@ footer {
 
 }
 
+
+
 .allProjects {
     display: flex;
     flex-direction: row;    
@@ -164,10 +188,12 @@ footer {
 
 .accordion .contentBox .label {
     position: relative;
-    padding: 10px;
+    padding: 1rem;
     background-color: #2694af;
+    border-radius: 1rem;
     color: white;
     cursor: pointer;
+    font-size: large;
 }
 
 .accordion .contentBox .label::before {
@@ -180,28 +206,53 @@ footer {
 
 }
 
-.accordion .contentBox .act .label::before {
+.accordion .contentBox.act .label::before {
     content: '-';
 }
 
 
 .accordion .contentBox .content {
     position: relative;
-    padding: 10px;
-    background-color: white;
+    background-color:antiquewhite;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     height: 0;
     overflow: hidden;
     transition: 0.5s;
     overflow-y: auto;
+    margin: 0 16px 0 15px;
 }
 
-.accordion .contentBox .act .content {
-    height: 150px;
+.accordion .contentBox.act .content {
+    height: 900px;
     padding: 10px;
 }
 
 
 
+/*Contact*/
+
+#contactMe{
+    background-color: #003459;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+}
+
+
+
+
+#contactMe h1 {
+    background-color: #588B8B;
+    border-radius: 2rem;
+    padding: 10px;
+    
+}
+
+#contactMe p {
+    text-align: center;
+    margin: 1rem;
+}
 
 
 
@@ -281,6 +332,11 @@ footer {
     .spaceRight {
         margin-right: 0;
     }
+
+    .accordion .contentBox.act .content {
+        height: 2300px;
+    }
+    
 
 
 

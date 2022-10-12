@@ -8,7 +8,7 @@ menuHamburger.addEventListener('click',()=>{
 
 
 /*Accordion*/ 
-const accordion = document.getElementById("contentBox");
+const accordion = document.getElementsByClassName("contentBox");
 for (i = 0; i< accordion.length; i++ ){
     accordion[i].addEventListener('click', function () {
         this.classList.toggle('act')
