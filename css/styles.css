@@ -69,10 +69,17 @@ footer {
     margin: 0 25px;
 }
 
-.navbar .nav-links ul li.active1 a{
+/* .navbar .nav-links ul li.active1 a{
+    color: #ed3c57;
+    font-weight: 600;
+} */
+
+
+.navbar .nav-links ul li a:hover{
     color: #ed3c57;
     font-weight: 600;
 }
+
 
 .navbar .menu-hamburger {
     display: none;
