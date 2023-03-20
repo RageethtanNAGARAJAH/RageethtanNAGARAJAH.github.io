@@ -186,6 +186,11 @@ footer {
 }
 
 
+.accordion .contentBox.act .content.but2 {
+    height: 410px;
+}
+
+
 /*accordion*/
 
 .accordion .contentBox {

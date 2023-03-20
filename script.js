@@ -15,18 +15,6 @@ for ( i = 0; i < liste.length; i++) {
 }
 
 
-// const liste = document.getElementBy
-// liste.addEventListener('click', ()=>{
-//     nav.classList.toggle('cliqueListe')
-// })
-
-// const elements = document.getElementsByClassName(".active1")
-// for(var i = 0; i < elements.length; i++){
-//     // Same like above...
-//     menuHamburger.classList.toggle('cliqueListe')
-// }
-
-
 
 
 /*Accordion*/ 
