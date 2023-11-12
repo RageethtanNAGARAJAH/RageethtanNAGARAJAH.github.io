@@ -104,6 +104,11 @@ footer {
     color: white;
 }
 
+#whoAmI p {
+    margin-bottom: 0.5rem;
+
+}
+
 #titreWhoAmI {
     background-color: #FCA311;
     border-radius: 2rem;
