@@ -1,0 +1,428 @@
+html body {
+  /*height: 100%;
+  width: 100%;*/
+  
+  
+  
+  background-color:#FDF0E7;
+  font-family: "Lucida Sans Unicode", "Arial", "sans-serif";
+  /*font-family: Helvetica, sans-serif;*/
+  /*color : #27C7D4;*/
+  color : black;
+  overflow-x: hidden;
+  margin:0px;
+  padding:0px;
+  
+}
+main{
+  position:relative;
+  left:6 px;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  height:100px;
+  width:200 px;
+  background-color:#FE9063
+}
+
+
+h1{
+  background-color:#27C7D4;
+  color: white;
+  padding-left : 2rem;
+  margin : 2rem;
+  
+  /*margin:0px;*/
+  margin-bottom: 70px;
+  margin-top:15px;
+  list-style-type: none;
+  border:1px solid black;
+}
+
+p, ul{
+  margin-left : 3rem;
+  margin-right : 3rem;
+}
+
+.logo{
+  height:80%;
+  padding:5px;
+  margin:5px
+  
+}
+.BUTINFO{
+  position:relative;
+  left:160px;
+  width:900px;
+  height:500px;
+}
+
+
+nav ul li{
+  list-style-type:none;
+  display:inline-block;
+  padding:10px;
+  position:relative;
+  bottom:97px;
+  left:37%;
+  
+}
+
+ul li a{
+  color:#FFFFFF;
+  letter-spacing:0.1row;
+}
+ul li a:hover{
+  background-color:#27C7D4;
+  
+}
+
+
+#couleurmenuselect{
+  background-color:#27C7D4;
+	
+}
+
+
+
+footer{
+  height:320px;
+  width:200 px;
+  background-color:#EA5863;
+  color : #FFFFFF;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+  margin-top:40px;
+
+}
+.Univ{
+  width:220px;
+  height:180px;
+   position:relative;
+  bottom:230px;
+  right:30px;
+  float:right;
+}
+.iutlogo{
+   width:220px;
+  height:180px;
+   position:relative;
+  bottom:230px;
+  right:-25px;
+}
+#info{
+  text-align:center;
+}
+main div img{
+  height:120px;
+  width:100 px;
+  padding:20px;
+  position:relative;
+  top:40px;
+  
+    padding-top:0px;
+  padding-bottom:0px;
+}
+
+
+
+
+
+/*
+
+ 
+      <p class="Bernadette">
+      Espace Bernadette
+      </p>
+      <p class="HLM">
+        Logement HLM
+      </p>
+*/
+
+
+/*Formation*/
+
+section{
+  width: 100%;
+  height: 100vh;
+  background-color: #FDF0E7;
+  display: flex;
+  align-items : center;
+  justify-content: center;
+}
+
+.container{
+  width: 100%;
+  max-width: 80rem;  
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.accordion-item{
+  background-color: #283042;
+  border-radius: .4rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
+
+
+
+.accordion-link{
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, .8);
+  text-decoration: none;
+  background-color: #283042;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.accordion-link i{
+  color: #e7d5ff;
+  padding: .5rem;
+}
+
+.accordion-link .ion-md-remove{
+  display: none;
+}
+
+.answer{
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #212838;
+  transition: max-height 650ms;
+}
+
+.answer::before{
+  content:"";
+  position: absolute;
+  width:.6rem;
+  height: 90%;
+  background-color: #8fc460;
+  top : 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.answer p{
+  color: rgba(255, 255, 255, .6);
+  font-size: 1.4rem;
+  padding: 2rem;
+}
+
+.ansp{
+  color: rgba(255, 255, 255, .6);
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
+}
+
+
+
+
+.accordion-item:target .answer{
+  max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .ion-md-add{
+  display: none;
+}
+
+.accordion-item:target .accordion-link .ion-md-remove{
+  display: block;
+}
+
+/*Vie Etu*/
+
+.nourrir{
+  color:Black;
+
+  /*margin:0px;*/
+  margin-bottom: 30px;
+  margin-top:40px;
+ 
+  
+  text-align:center;
+   padding-top:0px;
+  padding-bottom:0px;
+}
+.deplacer{
+  color:Black;
+   
+  /*margin:0px;*/
+  margin-bottom: 30px;
+  margin-top:40px;
+
+
+  text-align:center;
+}
+.loger{
+  color:Black;
+  
+  /*margin:0px;*/
+  margin-bottom: 30px;
+  margin-top:40px;
+
+
+  text-align:center;
+
+}
+.Logifac{
+  font-size:13px;
+  position:relative;
+  bottom:-30px;
+  left:-20px;
+  color:black
+}
+.Maubert{
+   color:black;
+   font-size:13px;
+   position:relative;
+    left:240px;
+  bottom:5px;
+  
+}
+.Bernadette{
+   color:black;
+   font-size:13px;
+   position:relative;
+    left:540px;
+    bottom:70px;
+}
+.UXCO{
+   color:black;
+  font-size:13px;
+   position:relative;
+    left:790px;
+    bottom:35px;
+}
+.HLM{
+   color:black;
+  font-size:13px;
+   position:relative;
+    left:1030px;
+    bottom:100px;
+}
+.Epicerie{
+    color:black;
+   font-size:13px;
+   position:relative;
+    left:530px;
+    bottom:35px;
+}
+.resto{
+    color:black;
+  font-size:13px;
+   position:relative;
+    left:740px;
+    bottom:70px;
+}
+.ff{
+   color:black;
+  font-size:13px;
+   position:relative;
+    left:950px;
+    bottom:100px;
+}
+.taneo{
+   font-size:13px;
+  position:relative;
+  bottom:-30px;
+  left:63px;
+  color:black
+}
+.marche{
+   color:black;
+   font-size:13px;
+   position:relative;
+    left:370px;
+  bottom:5px;
+}
+.velo{
+  color:black;
+   font-size:13px;
+   position:relative;
+    left:560px;
+    bottom:35px;
+}
+.troti{
+   color:black;
+  font-size:13px;
+   position:relative;
+    left:710px;
+    bottom:70px;
+}
+.voit{
+  color:black;
+  font-size:13px;
+   position:relative;
+    left:950px;
+    bottom:100px;
+  
+}
+.crous{
+  color:black;
+  font-size:13px;
+  position:relative;
+  left:-30px;
+  top:30px;
+}
+.bourse{
+   color:black;
+  font-size:13px;
+  position:relative;
+  left:120px;
+}
+.jeunesse{
+  color:black;
+  font-size:13px;
+  position:relative;
+  left:410px;
+  bottom:34px;
+  
+}
+.banque{
+  color:black;
+  font-size:13px;
+  position:relative;
+  left:900px;
+  bottom:70px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Contact*/
+.obligatoire {
+	color:red;
+}
+
+
+#message_demande{
+	width:90%;
+	height:120px;
+	resize:none;
+}
+
+#enSavoir{
+  text-align:center;
+}
+
+#me2t{
+  text-align:center;
+}
+
+

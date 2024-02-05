@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" type="image/png" href="images/iutlogo.png">
+  <title>But Informatique Nevers</title>
+</head>
+
+
+
+<body>
+  <header>
+    <a  href='index.html'><img class="logo" src="images/iutlogo.png" alt="logos"></a>
+
+    <nav>
+      <ul class="menu">
+        <li><a href='index.html'> Accueil</a></li>
+        <li><a href='formation.html'> Formation</a></li>
+        <li><a href='vieetu.html'> Vie étudiante</a></li>
+        <li><a id = 'couleurmenuselect' href='contact.html'> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  
+  <main>
+
+    <form action="sendToBuTInfoNevers.php" method="post">
+      <div>
+        <fieldset>
+          <legend><strong>Informations personnelles</strong></legend>
+          <div>
+            <label for="surname">Nom<span class="obligatoire">*</span> : </label>
+            <input id="surname" name="uname" type="text" required>
+          </div>
+          <br>
+
+          <div>
+            <label for="firstname">Prénom<span class="obligatoire">*</span> : </label>
+            <input id="firstname" name="fname" type="text" required>
+          </div>
+          <br>
+
+          <label> Sexe <span class="obligatoire">*</span> : </label>
+          <div>
+            <label for="homme">Homme</label>
+            <input id="homme" name="sexe" value="h" type="radio" required>
+            <label for="femme">Femme</label>
+            <input id="femme" name="sexe" value="f" type="radio" required>
+          </div>
+          <br>
+
+          <div>
+            <label for="phone">Numéro de téléphone <span class="obligatoire">*</span> : </label>
+            <!--<input type="tel" id="phone" name="phone" pattern="0[1-9](\.\d{2}){4}" required>-->
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+          </div>
+          <br>
+          <div>
+            <label for="adr_email">Email<span class="obligatoire">*</span> : </label>
+            <input id="adr_email" name="adr_email" type="email" placeholder="yourmail@domain.com" required>
+				  </div>
+        </fieldset>
+
+        <fieldset>
+				  <legend><strong>Votre demande</strong></legend>
+
+           <div>
+            <label for="object">Objet<span class="obligatoire">*</span> : </label>
+            <input id="object" name="oname" type="text" required>
+          </div>
+          <br>
+
+          <div>
+            <label for="message_demande">Votre message : </label>
+            <p>
+              <textarea id ="message_demande" name="message" placeholder="Ecrivez votre message"></textarea>
+            </p>
+          </div>
+        </fieldset>
+        <br>
+        <input type="submit" value="Envoyer">
+		  </form>
+  </main>
+  
+  <footer>
+    <p style="display:block;"  id="info">I.U.T Dijon Auxerre Site de Nevers<br><br>
+        Adresse :<br>
+        rue de l'Université<br>
+        58000 Nevers <br><br>
+        Numéro de téléphone :<br> 
+        03 80 39 64 02 <br><br>
+        Adresse mail :<br>
+        info-sec@iut-dijon.u-bourgogne.fr
+    </p>
+     <a href="https://www.u-bourgogne.fr/">        <img class="Univ"src="images/Univ.png">
+    </a>
+    <a href="https://iutdijon.u-bourgogne.fr/www/"> <img class="iutlogo"src="images/iutlogo.png">
+    </a>
+  </footer>
+
+</body>
+  
+
+</html>

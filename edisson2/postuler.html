@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr" id="debut">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+		<title>Edisson</title>
+	</head>
+	<body>
+		<header>
+      <a href="index.html"> <img class="logo" src="images/logo.png" alt="logo"></a>
+      <nav class="lien">
+        <a href="index.html">Accueil</a>
+        <a href="produits.html">Nos produits</a>
+        <a href="equipe.html">Notre équipe</a>
+        <a href="emploi.html">Offre d'emploi</a>
+        <a href="faq.html">FAQ</a>
+        <a href="engagements.html">Nos engagements</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <p class="nommenu">Postuler</p>
+		</header>
+    <main>
+      <br>
+      <br>
+      <form action="sendToEdissonServer.php" method="post">
+      <div>
+        <fieldset>
+          <legend><strong>Informations personnelles</strong></legend>
+          <div>
+            <label for="surname">Nom<span class="obligatoire">*</span> : </label>
+            <input id="surname" name="uname" type="text" required>
+          </div>
+          <br>
+
+          <div>
+            <label for="firstname">Prénom<span class="obligatoire">*</span> : </label>
+            <input id="firstname" name="fname" type="text" required>
+          </div>
+          <br>
+
+          <label><strong>Sexe <span class="obligatoire">*</span> : </strong></label>
+          <div>
+            <label for="homme">Homme</label>
+            <input id="homme" name="sexe" value="h" type="radio" required>
+            <label for="femme">Femme</label>
+            <input id="femme" name="sexe" value="f" type="radio" required>
+          </div>
+          <br>
+
+          <div>
+            <label for="phone">Numéro de téléphone <span class="obligatoire">*</span> : </label>
+            <!--<input type="tel" id="phone" name="phone" pattern="0[1-9](\.\d{2}){4}" required>-->
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+          </div>
+          <br>
+          <div>
+            <label for="adr_email">Email<span class="obligatoire">*</span> : </label>
+            <input id="adr_email" name="adr_email" type="email" placeholder="yourmail@domain.com" required>
+				  </div>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend><strong>Pièces jointes</strong></legend>
+          <div>
+            <label for="file1">Insérez votre Curriculum vitæ (= CV) :</label>
+            <br>
+            <input type="file" id="file1" name="file">
+          </div>
+          <br>
+          <div>
+            <label for="file2">Insérez votre lettre de motivation :</label>
+            <br>
+            <input type="file" id="docpicker" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
+          </div>
+          <br>
+          <div>
+            <label for="file3">Autre documents :</label>
+            <br>
+            <input type="file" id="file2" name="file" multiple>
+          </div>
+        </fieldset>
+        <br>
+        <div>
+            <input id="conditions" name="conditions" type="checkbox" required>
+            <label for="conditions"><strong>Vous acceptez d'être recontacté par l'équipe Edisson<span class="obligatoire">*</span></strong>
+            <p>Edisson traite les données recueillies pour des fins ultérieures. Pour en savoir plus sur la gestion de vos données personnelles et pour exercer vos droits, reportez-vous sur la page de <a href="confidentialite.html">la politique de confidentialité</a>.</p></label>
+        </div>
+      </div>
+      <br>
+      <input type="submit" value="Valider">
+		  </form>
+
+    </main>
+		<footer>
+      <img id="map" src="images/map.png" alt="adresse de l'entreprise">
+      <p style="display:block;"  id="info">Edisson<br><br>
+        Adresse :<br>
+        46 rue de la Boustifaille <br>
+        58000 Nevers <br><br>
+        Numéro de téléphone :<br> 
+        0456897841 <br><br>
+        Adresse mail :<br>
+        edisson@business.com
+      </p>
+      <br>
+      <br>
+      <p><a href="confidentialite.html">Politique de confidentialité</a></p>
+
+
+      <blockquote><p id="citation">"Si l'erreur est humaine, nous sommes à 200% humains."</p><br>
+      <cite class="jeanpierrenom"> Jean-Pierre EDISSON</cite><br>
+      </blockquote>
+      <p id="reseaux">	Suivez-nous sur : </p><a href="https://fr-fr.facebook.com/"><img class="rsx" src="images/facebook.png" alt="lien vers facebook"></a>
+      <a href="https://www.instagram.com/?hl=fr"><img class="rsx" src="images/instagram.png" alt="lien vers instagram"></a>
+      <a href="https://twitter.com/?lang=fr"><img class="rsx" src="images/twitter.jpg" alt="lien vers twitter"></a>
+		</footer>
+	</body>
+</html>

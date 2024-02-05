@@ -1,0 +1,971 @@
+@media(max-width:400px){
+  h2{font-size:12px;}
+  h3{font-size:8px;}
+  img{width:20px; height:10px;}
+  p{font-size:10px;}
+    
+}
+    
+  
+header{
+	background-color:#5A8ABA;
+	text-align:center;
+	height:150px;
+	border: 1px solid black;
+  width: 1300px;
+}
+
+main{
+  margin:0%;
+}
+
+#couleurmenuselect{
+	background-color:#74afeb;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav {
+	width:50%;
+	margin-left: auto;
+	margin-right: auto;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	align-items: stretch;
+	justify-content:flex-end;
+}
+
+
+nav > a {
+  background-color: #ffde59;
+  color:black;
+	font-size:15px;
+	position:relative;
+	top:50px;
+  border: 2px solid black;
+	margin: 0px;
+  margin-top: 0px;
+  padding: 5px 10px;
+	
+	/*border-right:2px solid black;*/
+}
+
+
+
+
+.nommenu{
+  position:relative;
+  top:50px;
+  font-size:22px;
+  color:white;
+}
+
+
+body {
+	background-color:#3363A3;
+	width:1300px;
+  line-height:150%;
+  min-height: 100vh;
+  margin:auto;
+  margin-top:0px;
+  margin-bottom: 0px;
+  color: white;
+
+ 
+
+  
+}
+
+/*
+body{
+  background-color:#3363A3;
+  width:100%;
+	max-width:900px;
+	line-height:150%;
+	margin: auto;
+}
+*/
+
+.logo{
+  height:100px;
+  float:left;
+  margin:25px;
+  
+}
+
+
+
+
+
+
+h2{
+	text-align:center;
+  color:black;
+	
+}
+/*nos produits*/
+.impair{
+	text-align:center;
+	color:white;
+	margin:80px;
+  margin-left:400px;
+  border:2px solid black;
+  background-color: black;
+  position: relative;
+  right: 0px;
+}
+.titrevelo{
+  background-color:#BCC6EA;
+  margin:0px;
+  margin-bottom: 70px;
+  margin-top:15px;
+  list-style-type: none;
+  border:2px solid black;
+}
+#espaceproduit{
+  margin-top: 300px;
+}
+
+.impair>p{
+	text-align:center;
+	font-size:18px;
+	margin:50px;
+	text-indent:20px;
+}
+
+.velo{
+	 padding:0px 50px 20px 50px;
+	 width:250px;
+	 height:140px;
+	 float: left;
+	margin: 0px 15px;
+ 
+}
+
+.nosvelo{
+	margin-left:30px;
+	margin-right:30px;
+  margin-bottom: 0px;
+
+ 
+	position:relative; 
+	bottom:30px;
+  top:50px; 
+	left:160px;
+	width:250px;
+	height:170px;	 
+}
+
+.trotinette{
+  background-color:#639DD5;
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:70px;
+  margin-top: 0px;
+  border:2px solid black;
+ 
+  
+}
+
+
+.skateboard{
+  background-color:#ffffe0;
+   margin-left:0px;
+  margin-right:0px;
+  margin-bottom:70px;
+  margin-top: 100px;
+  border:2px solid black;
+  	
+}
+
+.roller{
+  background-color:#ADFF2F;
+  margin:0px;
+  margin-bottom:70px;
+  margin-top:0px;
+  border:2px solid black;
+  
+}
+
+.luge{
+  background-color:#ff9f40;
+  margin:0px;
+  margin-bottom: 70px;
+  border:2px solid black;
+ 
+}
+
+.titrenosvelos{
+  background-color:#BCC6EA;
+  margin-top:200px;
+  border:2px solid black;
+}
+
+.prix{
+  
+  margin-right: 0px;
+  text-align: center;
+  position: relative;
+  bottom:60px;
+  left:590px;
+  color: black;
+  background-color:#ffde59;
+  font-weight: bold;
+  width:200px;
+  margin-left:0px;
+  
+  
+}
+.acheter{
+  color:black;
+  text-align: center;
+  position: relative;
+  left:630px ;
+  bottom: 40px;
+  font-size: 25px;
+  background-color: #ffffe0;
+  font-weight: bold;
+  width:90px;
+  margin-left:0px;
+  margin-right: 0px;
+  border:3px solid black;
+  margin-bottom: 150px;
+  padding: 5px 10px;
+   
+}
+
+/*emploie*/
+.vendeur{
+	text-align:left;
+	color:#2B78E4;
+	font-weight:bold;
+	font-style:italic;
+	position:relative;
+	top:5px;
+  left:17px;
+  margin-left:0px;
+  margin-right:0px;
+
+  
+  
+  
+ 
+
+	
+}
+.empoloicouleur{
+	background-color:white;
+	height:120px;
+	width:1300px;
+	margin:70px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border:3px solid black;
+	padding:0px 2px;
+}
+
+.para{
+	color:black;
+	position:relative;
+	top:2px;
+	word-spacing:0.3em;
+  font-size:22px;
+  margin-left:20px;
+  text-align:justify;
+  margin-right:20px;  
+}
+
+
+.textemploie{
+	font-size:20px;
+	line-height:150%;
+	text-align:justify;
+	margin-left:28px;
+  margin-right:28px;
+  color:white;
+}
+
+
+.emploicouleurs{
+	background-color:white;
+	height:70px;
+	width:1300px;
+	margin:70px;
+  margin-left:0px;
+  margin-right: 0px;
+	margin-bottom:5px;
+	margin-top:200px;
+	border:3px solid black;
+	padding:0px 2px;
+	
+}
+.vendeur2{
+	text-align:center;
+	color:#2B78E4;
+	font-weight:bold;
+	font-style:italic;
+	position:relative;
+	top:0px;
+	font-size:28px;
+	
+}
+.voiroffre{
+	
+	width:90px;
+	float:right;
+	height:30px;
+	font-weight:bold;
+	position:relative;
+	bottom:45%;
+ 
+	margin:20px;
+	margin-right:30px;
+	border:2px solid black;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  background-color: #e6e6e6;
+
+}
+.postuler{
+  color:black;
+  text-align: center;
+  position: relative;
+  left:610px ;
+  bottom: 0px;
+  font-size: 25px;
+  background-color: white;
+  border:2px solid black;
+  margin: auto;
+  font-weight: bold;
+  width: 100px;
+  padding:5px 10px;
+
+}
+
+
+
+
+
+/*Contact*/
+.obligatoire {
+	color:red;
+}
+
+
+#conseilmod{
+  color: #ffde59;
+}
+
+#message_demande{
+	width:90%;
+	height:120px;
+	resize:none;
+}
+/*
+
+
+#calendrier {
+	display: none;
+}
+
+
+
+#rc:active #calendrier {
+	display: block;
+}
+*/
+
+
+#calendrier {
+	visibility: hidden;
+}
+
+
+#tel1:checked ~ #calendrier {
+	visibility: visible;
+}
+
+
+
+#mention {
+  font-size:5px;
+  color: black;
+}
+
+
+/*FAQ*/
+
+.faqfond{
+	background-color:white;
+  color: black;
+  padding: 10px;
+  margin:20px;
+  margin-left:0;
+  margin-right: 0;
+  border:2px solid black;
+}
+
+.faqcouleur{
+  color: red;
+  text-align:left;
+  margin-left: 20px;
+}
+
+
+
+
+/*page faq nouv/
+
+/*
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+
+
+html{
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	box-sizing: border-box;
+}
+*/
+#mainfaq{
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	box-sizing: border-box;
+  margin-top: 10%;
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container{
+	width: 100%;
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+.accordion-item{
+	background-color: white;
+	border-radius:.4rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
+
+.accordion-link{
+	font-size: 1.6rem;
+	color: red;
+	text-decoration: none;
+	background-color: white;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+
+.accordion-link i{
+	color: #e7d5ff;
+	padding: .5rem;
+}
+
+.accordion-link .ion-md-remove{
+	display: none;
+}
+
+.answer{
+	max-height:0;
+	overflow: hidden;
+	position: relative;
+	background-color: #EFEFEF;
+	transition: max-height 650ms;
+}
+
+.answer::before{
+	content:"";
+	position: absolute;
+	width: .6rem;
+	height:90%;
+	background-color: #00BFFF;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.answer p{
+	color: black;
+	font-size: 1rem;
+	padding: 2rem;
+}
+
+.accordion-item:target .answer{
+	max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .ion-md-add{
+	display: none;
+}
+
+.accordion-item:target .accordion-link .ion-md-remove{
+	display: block;
+}
+
+
+/*fin de la page faq*/
+
+
+
+
+
+
+
+
+
+
+
+
+article>p {
+	text-align: justify;
+	padding: 10px 0px;
+	position:relative;
+}
+
+
+
+
+#map {
+	padding: 25px ;
+	height:200px;
+	margin: 0;
+	float:left;
+  position: relative;
+  top:80px;
+  width:300px;
+}
+
+
+footer {
+	background-color:#AFAAC0;
+
+	text-align:center;
+	border: 2px solid black;
+	
+  
+	
+  justify-content: space-around;
+  margin-top:0px;
+  width:1300px;
+  min-width:400px;
+  position: relative;
+  top:120px ;
+  
+  
+	
+}
+
+#info {
+	font-size:20px;
+
+  position: relative;
+  right:300px;
+  top:40px;
+  text-align:center;
+  margin: 0;
+
+}
+#arbre {
+	width:90% ;
+	height:auto;
+	padding:right;
+  
+}
+
+.rsx {
+	height: 50px;
+	margin:0;
+  float: right;
+  position: relative;
+  bottom:100px;
+  right:30px;
+}
+
+#reseaux{
+position: relative;
+left: 370px;
+bottom:30px;
+
+}
+#citation{
+  font-size: 19px;
+  position: relative;
+  left:  300px;
+  bottom: 200px;
+  margin: 0px;
+  
+}
+#techno {
+ 	width:100% ;
+  height: 200px ;
+  
+}
+
+.jeanpierrenom{
+  position: relative;
+  left:  300px;
+  bottom: 220px;
+  margin: 0;
+}
+.composant {
+  width:225px ;
+  height: 225px ;
+	margin: 25px;
+  padding: center;
+}
+
+.vehicule_acc1 {
+  margin-left:30px;
+	margin-right:30px;
+  margin-bottom: 0px;
+	position:relative; 
+	padding: left; 
+  width:250px;
+	height:170px;	
+}
+.produits_acc{
+  color:black;
+  text-align: center;
+  position: relative;
+  left:610px ;
+  bottom: 50px;
+  top: 30px;
+  font-size: 30px;
+  background-color: #BCC6EA;
+  font-weight: bold;
+  width:90px;
+  margin:auto;
+  border:3px solid black;
+}
+.vehicules_acc {
+  font-size: 40px;
+  color: black;
+  padding: center;
+}
+.float-left{
+ float: left;
+}
+.float-right{
+ float: right;
+}
+#acc_luge {
+  margin-left:30px;
+	margin-right:30px;
+  margin-bottom: 0px;
+	position:relative; 
+	padding: right; 
+  width:250px;
+	height:170px;
+}
+
+/*
+header {
+	display:flex;
+	align-items:flex-end;
+	background-color:white;
+}
+
+
+main {
+	display:flex;
+}
+
+
+
+main > article {
+	width:300px;
+	min-width:200px;
+	flex-grow:3;
+	flex-shrink:0.67;
+}
+
+main > aside {
+	width: 200px;
+	margin-left: 10%;
+	min-width:150px;
+	flex-grow:1;
+	flex-shrink:0.33;
+}
+
+*/
+
+
+main > arcticle {
+  width:80%;
+}
+
+main > aside {
+  width:20%;
+}
+
+
+
+
+/*surprise1*/
+
+#vback{
+  /*
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  */
+  display: block;
+  margin-top:-25%;
+  margin-left:35%;
+}
+
+#cadeau1 {
+  width: 60px;
+  margin-top:700%;
+}
+
+#cadeau2 {
+  width: 80px;
+  position: relative;
+  top:88%;
+}
+
+#mainc{
+  display: flex;
+}
+
+#mainc > article{
+  width: 95%;
+}
+
+#mainc > aside{
+  width: 5%;
+}
+
+#bravo {
+  width: 500px;
+  margin-left: 35%;
+}
+
+#joue , #joue1 {
+  width: 200px;
+
+}
+
+#joue{
+  margin-top:15%;
+  margin-left:15%;
+}
+
+#joue1{
+  float: left;
+  margin-left:80%;
+  margin-top:-28.5%;
+}
+
+#code{
+  background-color: #ffde59; 
+  color:black;
+}
+
+/*
+#backg{
+  background-image: url(images/etoiles.jpg);
+  width: 100%;
+}
+*/
+#congrats{
+  width: 500px;
+  margin-left: 0%;
+}
+
+#roll{
+  display: block;
+  margin-top:0%;
+  margin-left:35%;
+}
+
+#leo1 , #leo2 {
+  width: 200px;
+
+}
+
+
+#leo1{
+  float: left;
+  margin-top:27%;
+  margin-left: 18%
+}
+
+
+#leo2{
+  float: right;
+  margin-top: -18%;
+  margin-right: 10%
+}
+
+
+
+#remerciement{
+  text-align: center;
+  margin:5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+
+.pic_eqp{
+  width: 175px;
+  margin-right: 25px;
+}
+#avocats_equipe{
+  font-size: 40px;
+  width:90% ;
+	height:auto;
+	padding:center;
+}
+#dev_webtxt {
+  font-size: 25px;
+  padding: center;
+}
+
+
+
+
+
+
+
+/*Sae1.06*/
+
+
+/*cookie web*/    
+#cookie{
+  z-index: 1;
+  background-color: orange;
+  border:2px solid black;
+  width: 30%;
+  text-align : center;
+  position : fixed;
+  margin-left : 940px;
+  margin-top: 110px;
+}
+
+
+/*page engagements*/
+#titresoc{
+  background-color:#ffde59;
+  margin:0px;
+  margin-bottom: 70px;
+  margin-top:15px;
+  list-style-type: none;
+  border:2px solid black;
+}
+
+#titreenv{
+  background-color: #ADFF2F;
+  margin:0px;
+  margin-bottom: 0px;
+  margin-top:0px;
+  list-style-type: none;
+  border:2px solid black;
+}
+
+.citationsocenv{
+  background-color:white;
+  font-size:20px;
+  color: black;
+  padding: 10px;
+  margin:10px;
+  margin-left:0;
+  margin-right: 0;
+  border:2px solid black;
+}
+
+
+.imagesocenv{
+  /* padding:0px 50px 20px 50px; */
+  width:170px;
+  height:150px;
+  /* float: left; */
+	/* margin: 0px 15px; */
+
+  /* float:left;
+	margin-right:5px; */
+}
+
+.txt{
+  font-size:19px;
+  margin:30px;
+  
+  
+  
+}
+
+
+/*page politique de confidentialité*/
+
+#pcffond{
+  background-color:white;
+  padding: 10px;
+  margin:20px;
+  margin-left:0;
+  margin-right: 0;
+  border:2px solid black;
+}
+
+
+.pcftitrearticle{
+  color: balck;
+  font-weight:bold;
+  text-align:left;
+  margin-left: 20px;
+}
+
+.pcfarticle{
+  color:black;
+	position:relative;
+	top:2px;
+	word-spacing:0.3em;
+  font-size:18px;
+  margin-left:20px;
+  text-align:justify;
+  margin-right:20px;  
+}
+
+.txtgras{
+  font-weight:bold;
+}
+
+#date{
+  color:black;
+}
+
+
+/*footer ajout politique de confidentialité*/
+
+#fpc{
+  font-size:20px;
+  text-align:center;
+  margin: 0;
+
+}
+
